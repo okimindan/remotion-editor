@@ -26,7 +26,7 @@ docker compose up studio
 → ブラウザで http://localhost:3000 を開く
 ```
 
-- MP4 レンダリング
+- MP4形式で出力
 ```
 # テキストアニメーション
 docker compose run --rm render TextAnimation out/TextAnimation.mp4
