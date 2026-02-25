@@ -31,3 +31,8 @@ docker compose up studio
 # テキストアニメーション
 docker compose run --rm render TextAnimation out/TextAnimation.mp4
 ```
+
+- remotionを起動
+```
+npm run dev
+```
