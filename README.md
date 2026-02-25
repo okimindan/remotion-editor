@@ -12,6 +12,12 @@ remotion-editor/
 ├── docker-compose.yml
 └── README.md
 ```
+
+## ファイルの役割
+- Root.tsx
+  - 動画のサイズ（1920x1080など）、フレームレート（FPS）、再生時間などを定義
+- TextAnimation.tsx
+  - 具体的なアニメーションをかくコード
 ## 使用方法
 - Studio 起動（ブラウザで編集・プレビュー）
 ```
